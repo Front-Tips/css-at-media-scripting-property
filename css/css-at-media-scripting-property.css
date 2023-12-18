@@ -1,0 +1,17 @@
+@import "reset.css";
+
+.bulb__body,
+.bulb__lightRays {
+  fill: white;
+}
+
+/* ------------------------ */
+/*     Enabled Scripting    */
+/* ------------------------ */
+@media (scripting: enabled) {
+  .bulb__body,
+  .bulb__bodyBottom,
+  .bulb__lightRays {
+    fill: yellow;
+  }
+}
